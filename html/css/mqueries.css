@@ -1,0 +1,243 @@
+/* ---------------------
+
+Small desktop screens
+
+------------------------ */
+
+@media only screen and (max-width: 1280px) {
+
+
+
+    #page-content {
+        min-width: inherit;
+        max-width: 100%;
+    }
+
+    .wrapper {
+        width: calc(100% - 80px);
+    }
+
+}
+
+
+
+/* ---------------------
+
+Tablet Landscape
+
+------------------------ */
+
+@media only screen and (max-width: 1024px) {
+
+    /* Fonts */
+    h1 {
+        font-size: 67px;
+        line-height: 80px;
+    }
+    h2 {
+        font-size: 45px;
+        line-height: 57px;
+    }
+    h3 {
+        font-size: 32px;
+        line-height: 44px;
+    }
+    h4 {
+        font-size: 23px;
+        line-height: 33px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    h6 {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    /* header / menu appearance */
+    header {
+        top: 0px !important;
+        left: 0px !important;
+        width: 100% !important;
+        margin-left: 0!important;
+        height: auto !important;
+    }
+    header .header-inner {
+        padding: 0vw 3vw !important;
+    }
+
+
+
+    /* ---------------------
+
+Small tablets / tablets portrait
+
+------------------------ */
+    @media only screen and (max-width: 960px) {
+
+        /* Fonts */
+        h1 {
+            font-size: 62px;
+            line-height: 77px;
+        }
+        h2 {
+            font-size: 42px;
+            line-height: 56px;
+        }
+        h3 {
+            font-size: 30px;
+            line-height: 42px;
+        }
+        h4 {
+            font-size: 22px;
+            line-height: 32px;
+        }
+        h5 {
+            font-size: 15px;
+            line-height: 22px;
+        }
+        h6 {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        /* columns */
+        .one-fourth,
+        .two-fourth,
+        .three-fourth,
+        .one-fifth,
+        .two-fifth,
+        .three-fifth,
+        .four-fifth,
+        .one-sixth,
+        .two-sixth,
+        .three-sixth,
+        .four-sixth,
+        .five-sixth {
+            float: none !important;
+            width: 100% !important;
+            margin-right: 0 !important;
+            margin-top: 40px !important;
+        }
+
+
+        /* general spacing */
+        #page-body {
+            padding-top: 40px;
+        }
+
+        footer .footer-inner {
+            padding: 80px 0;
+        }
+
+        .fullwidth-section .fullwidth-content {
+            padding: 80px 0;
+        }
+        .spacer-big {
+            height: 80px;
+        }
+
+
+        /* footer */
+        #footer .footer-inner {
+            max-width: 400px;
+        }
+
+
+
+    }
+
+
+
+
+    @media only screen and (max-width: 768px) {
+
+
+        img {
+            min-width: 50vw;
+        }
+
+        /* Fonts */
+        h1 {
+            font-size: 42px;
+            line-height: 52px;
+        }
+        h2 {
+            font-size: 34px;
+            line-height: 42px;
+        }
+        h3 {
+            font-size: 27px;
+            line-height: 38px;
+        }
+        h4 {
+            font-size: 20px;
+            line-height: 29px;
+        }
+        h5 {
+            font-size: 15px;
+            line-height: 22px;
+        }
+        h6 {
+            font-size: 13px;
+            line-height: 20px;
+        }
+
+        .uppercase {
+            letter-spacing: 0.04em;
+        }
+
+
+        /* columns */
+        .column {
+            float: none !important;
+            width: 100% !important;
+            margin-top: 40px !important;
+        }
+
+        div .column:first-child {
+            margin-top: 0px !important;
+        }
+
+        /* general spacing */
+        #page-content {
+            min-width: inherit;
+            max-width: 100%;
+        }
+
+        .wrapper {
+            width: calc(100% - 40px);
+            max-width: calc(100% - 40px);
+        }
+
+        #page-body {
+            padding-top: 60px;
+        }
+
+        footer .footer-inner {
+            padding: 60px 0;
+        }
+
+        .fullwidth-section .fullwidth-content {
+            padding: 60px 0;
+        }
+        .spacer-mini {
+            height: 15px;
+        }
+        .spacer-small {
+            height: 30px;
+        }
+        .spacer-medium {
+            height: 40px;
+        }
+        .spacer-big {
+            height: 60px;
+        }
+
+        header .header-inner {
+            padding: 0px 20px !important;
+        }
+
+    }
